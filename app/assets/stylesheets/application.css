@@ -29,11 +29,13 @@
 }
 
 header {
-  margin: 20px 0 5px 30px;
+  margin: 20px 0 5px 0;
 }
 
-.btn-create {
-  display: block;
+.flash {
+  color: green;
+  font-size: 14px;
+  margin-left: 40px;
 }
 
 body {
@@ -56,6 +58,24 @@ body {
 
 .form-area {
   margin-top: 30px;
+}
+
+.btn-create {
+  display: block;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+.top-text {
+  margin: 30px;
+  font-size: 13px;
+}
+
+.start-menu {
+  margin: 30px;
+  font-size: 13px;
 }
 
 h2 {
@@ -83,7 +103,7 @@ h5 {
 
 .post-title {
   display: inline-block;
-  font-size: 15px
+  font-size: 15px;
 }
 
 .post-text {
@@ -91,4 +111,24 @@ h5 {
   font-size: 13px;
 }
 
+#error_explanation {
+  width: 500px;
+  height: 100px;
+  margin: 10px 0;
+  border: solid 2px red;
+  background-color: #EEEEEE;
+}
+
+#error_explanation > h2 {
+  margin: 0;
+  padding: 5px;
+  background-color: red;
+  font-size: 15px;
+  color: #fff;
+}
+#error_explanation > ul {
+  margin: 20px 40px;
+  font-size: 13px;
+
+}
 
